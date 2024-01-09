@@ -1,0 +1,53 @@
+$ff-primary:  'Hanken Grotesk', sans-serif;
+
+$fs-200: 1rem;
+$fs-300: 1.125rem;
+$fs-400: 1.250rem;
+$fs-500: 1.75rem;
+$fs-900: 4rem;
+
+$fw-regular: 500;
+$fw-medium: 700;
+$fw-bold: 800;
+
+.ff-primary {
+	font-family: $ff-primary;
+}
+
+.fs-body {
+	font-size: $fs-300;
+}
+
+.fs-200 {
+	font-size: $fs-200;
+}
+.fs-300 {
+	font-size: $fs-300;
+}
+.fs-400 {
+	font-size: $fs-400;
+}
+.fs-500 {
+	font-size: $fs-500;
+}
+.fs-900 {
+	font-size: $fs-900;
+}
+
+.fw-regular {
+	font-weight: $fw-regular;
+}
+.fw-medium {
+	font-weight: $fw-medium;
+}
+.fw-bold {
+	font-weight: $fw-bold;
+}
+
+.ta-center{
+	text-align: center;
+}
+
+.ta-left{
+	text-align: left;
+}

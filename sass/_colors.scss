@@ -1,0 +1,25 @@
+$grd-primary-first: #7857ff;
+$grd-primary-second: #2e2be9;
+
+$grd-circle-first: #4e21ca;
+$grd-circle-second: #2421ca;
+
+$clr-primary-900: #303b5a;
+$clr-primary-600: #c8c7ff;
+$clr-primary-300: #ebf1ff;
+$clr-primary-100: #ffffff;
+
+$clr-warning-500: #ffb01f;
+$clr-danger-500: #ff5757;
+$clr-succes-500: #00bd91;
+$clr-info-500: #1125d4;
+
+$grd-primary: linear-gradient($grd-primary-first, $grd-primary-second);
+$grd-circle: linear-gradient($grd-circle-first, rgba($grd-circle-second, 0));
+
+.txt-clr-primary-600{
+    color: $clr-primary-600
+}
+.txt-clr-primary-100{
+    color: $clr-primary-100
+}
