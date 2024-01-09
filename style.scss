@@ -48,7 +48,7 @@ $br-radius: 2.5rem;
 }
 
 .result {
-	padding: 0 2.5rem;
+	padding: 0 3rem;
 	border-radius: 0 0 $br-radius $br-radius;
 	background: $grd-primary;
 	color: $clr-primary-600;
@@ -78,56 +78,56 @@ $br-radius: 2.5rem;
 }
 
 .summary {
-    $transparency: .2;
+	$transparency: 0.2;
 	align-items: stretch;
 	padding: 0 2rem;
-	&__rating span{
+	&__rating span {
 		color: rgba($clr-primary-900, 0.5);
 	}
 
-	&__skill svg{
+	&__skill svg {
 		margin-right: 1rem;
 	}
 	&__bar {
 		margin: 0.5rem 0;
 		padding: 1rem;
 		border-radius: 0.5rem;
-        
+
 		&--accent-red {
 			background-color: rgba($clr-danger-500, $transparency);
-            div{
-                color: $clr-danger-500;
+			div {
+				color: $clr-danger-500;
 			}
-            & svg{
-                stroke: $clr-danger-500;
-            }
+			& svg {
+				stroke: $clr-danger-500;
+			}
 		}
 		&--accent-yellow {
 			background-color: rgba($clr-warning-500, $transparency);
-            div{
-                color: $clr-warning-500;
-            }
-            & svg{
-                stroke: $clr-warning-500;
-            }
+			div {
+				color: $clr-warning-500;
+			}
+			& svg {
+				stroke: $clr-warning-500;
+			}
 		}
 		&--accent-blue {
 			background-color: rgba($clr-info-500, $transparency);
-            div{
-                color: $clr-info-500;
-            }
-            & svg{
-                stroke: $clr-info-500;
-            }
+			div {
+				color: $clr-info-500;
+			}
+			& svg {
+				stroke: $clr-info-500;
+			}
 		}
 		&--accent-green {
 			background-color: rgba($clr-succes-500, $transparency);
-            div{
-                color: $clr-succes-500;
-            }
-            & svg{
-                stroke: $clr-succes-500;
-            }
+			div {
+				color: $clr-succes-500;
+			}
+			& svg {
+				stroke: $clr-succes-500;
+			}
 		}
 	}
 
@@ -162,7 +162,7 @@ $br-radius: 2.5rem;
 	.summary-box {
 		flex-direction: row;
 		align-items: stretch;
-		max-width: 37.5rem;
+		max-width: 40rem;
 		border-radius: $br-radius;
 		box-shadow: 10px 10px 20px 0px rgba($clr-primary-900, 0.2);
 	}
@@ -172,5 +172,11 @@ $br-radius: 2.5rem;
 	}
 	.result {
 		border-radius: $br-radius;
+		&__message {
+			margin: 0;
+		}
+	}
+	.btn {
+		padding: 0.9rem;
 	}
 }
